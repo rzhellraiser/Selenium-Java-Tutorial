@@ -26,7 +26,7 @@ public class AssertionExample {
 	@Test
 	public void testFour(){
 		System.out.println("Hi, I am Test Four ...");
-		Assert.assertFalse(false, "Making test failure");
+		Assert.assertFalse(true, "Making test failure");
 	}
 	
 	@Test
